@@ -18,3 +18,59 @@
 body {
     background-color: var(--redColor);
 }
+h1 {
+    /* margin-top: 2rem;
+    text-align: center;
+    justify-content: center; */
+}
+/* Buttons */
+button {
+    margin-top: 3rem;
+    /* margin-left: 42rem;
+    align-self: center;
+    justify-content: center; */
+}
+.btn-1 {
+    height: 2rem;
+    width: 12rem;
+    border-radius: 2rem;
+}
+.btn-2 {
+    height: 2rem;
+    width: 12rem;
+    border-radius: 2rem;
+}
+.btn-3 {
+    height: 2rem;
+    width: 12rem;
+    border-radius: 2rem;
+}
+.btn-4 {
+    height: 2rem;
+    border-radius: 2rem;
+}
+.btn-5 {
+    height: 2rem;
+    width: 12rem;
+    border-radius: 2rem;
+}
+.btn-1:hover {
+    scale: 1.1;
+    background-color: aqua;
+}
+.btn-2:hover {
+    scale: 1.1;
+    background-color: aqua;
+}
+.btn-3:hover {
+    scale: 1.1;
+    background-color: aqua;
+}
+.btn-4:hover {
+    scale: 1.1;
+    background-color: aqua;
+}
+.btn-5:hover {
+    scale: 1.1;
+    background-color: aqua;
+}

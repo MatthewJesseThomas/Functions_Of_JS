@@ -73,8 +73,59 @@
 // console.log(game.gameName);
 //=====================================================================\\
 // ADDING PROPERTIES AND METHODS IN AN OBJECT //
-
-
-
-
+// let func = new Function("x", "y", "return x*y");
+// function secondFunction(){
+//     let result;
+//     result = func(5,20);
+// }
+// console.log(result)
 //=====================================================================\\
+// constructor function
+// function Person () {
+//     this.name = 'John',
+//     this.age = 23
+//     }
+    // creating objects
+    // let person1 = new Person();
+    // let person2 = new Person();
+// adding property to person1 object
+    // person1.gender = 'male';
+// adding method to person1 object
+//     person1.greet = function () {
+//     console.log('Hi You');
+//     }
+//     person1.greet(); 
+// console.log(person1.gender)
+//=====================================================================\\
+// Local Storage //
+document.getElementById('add-single-item').addEventListener("click", function(){
+    window.localStorage.setItem('name', 'Matthew Jesse Thomas');
+
+});
+
+document.getElementById('add-another-item').addEventListener("click", function(){
+
+});
+
+document.getElementById('retrieve-single-item').addEventListener("click", function(){
+
+});
+
+document.getElementById('remove-single-item').addEventListener("click", function(){
+
+});
+
+document.getElementById('remove-all-items').addEventListener("click", function(){
+
+});
+// Update Function //
+// function updatePage(){
+//     const values = []
+//     let updateThis = window.localStorage.getItem('name');
+// }
+//=====================================================================\\
+// Looping-Over-Objects-and-Array //
+let products = {
+    // Need to add the games within the object and have it loop through one at a time 
+    games: {}
+}
